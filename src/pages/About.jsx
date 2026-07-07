@@ -11,21 +11,22 @@ export default function About() {
         </h1>
 
         <p className="text-gray-300 text-lg leading-8 text-center">
-          This project was developed as part of the QSkill Front-End
-          Development Internship using modern web technologies.
+          This project was developed as part of the <strong>QSkill Front-End Development Internship</strong>.
+          It demonstrates modern React development with API integration, routing, reusable components,
+          and responsive UI design.
         </p>
 
         <div className="grid md:grid-cols-2 gap-6 mt-10">
 
           <div className="bg-slate-700 rounded-xl p-6">
             <h2 className="text-2xl font-semibold mb-4">
-              Technologies
+              Technologies Used
             </h2>
 
             <ul className="space-y-3">
               <li className="flex items-center gap-3">
                 <FaReact className="text-cyan-400" />
-                React
+                React.js
               </li>
 
               <li className="flex items-center gap-3">
@@ -38,15 +39,10 @@ export default function About() {
                 Axios
               </li>
 
-              <li className="flex items-center gap-3">
-                🌍 RapidAPI
-              </li>
-
-              <li className="flex items-center gap-3">
-                🚀 React Router
-              </li>
+              <li>🌍 Microsoft Translator API (RapidAPI)</li>
+              <li>🚀 React Router</li>
+              <li>⚡ Vite</li>
             </ul>
-
           </div>
 
           <div className="bg-slate-700 rounded-xl p-6">
@@ -55,19 +51,19 @@ export default function About() {
               Developer
             </h2>
 
-            <p className="text-gray-300 mb-3">
+            <p className="mb-3">
               <strong>Name:</strong><br />
               Challa Naga Chaitanya Sai
             </p>
 
-            <p className="text-gray-300 mb-3">
+            <p className="mb-3">
               <strong>Internship:</strong><br />
-              QSkill Front-End Development
+              QSkill Front-End Development Internship
             </p>
 
-            <p className="text-gray-300">
+            <p>
               <strong>Project:</strong><br />
-              Translator + Random String Generator
+              Text Translator & Random String Generator
             </p>
 
           </div>
@@ -75,17 +71,15 @@ export default function About() {
         </div>
 
         <div className="mt-10 text-center">
-
           <a
-            href="https://github.com/YOUR_USERNAME/qskill-frontend-internship"
+            href="https://github.com/challachaithanya2006-cell/qskill-frontend-internship"
             target="_blank"
-            rel="noreferrer"
-            className="inline-flex items-center gap-3 bg-cyan-500 hover:bg-cyan-600 px-6 py-3 rounded-xl font-semibold"
+            rel="noopener noreferrer"
+            className="inline-flex items-center gap-3 bg-cyan-500 hover:bg-cyan-600 transition-all duration-300 px-6 py-3 rounded-xl font-semibold shadow-lg"
           >
-            <FaGithub />
+            <FaGithub className="text-xl" />
             View Source Code
           </a>
-
         </div>
 
       </div>
